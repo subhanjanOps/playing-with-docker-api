@@ -2,7 +2,10 @@ module docker-pg-go
 
 go 1.17
 
-require github.com/docker/docker v20.10.21+incompatible
+require (
+	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
+	github.com/docker/docker v20.10.21+incompatible
+)
 
 require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
